@@ -1,0 +1,128 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+    font-size: 15px
+}
+
+header, footer {
+    width: 100%;
+    padding: 10px;
+    background: #c52f24;
+    color: #fff;
+    margin: 0px;
+}
+
+h1 {
+    display: block;
+    font-weight: bold;
+}
+
+.main_container {
+    margin: 50px 15px;
+}
+
+h2 {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+table th {
+    background-color: #fbbfbf;
+    border: solid 1px black;
+    padding: 10px 20px;
+}
+
+table td {
+  background-color: #f1c8c861;
+  padding: 10px 20px;
+  border: solid 1px black;
+  text-align: center;
+}
+
+ul {
+  list-style:none;
+  padding-left: 0px;
+}
+
+textarea{
+  width: 350px;
+  height: 200px;
+}
+
+a,input[type="submit"]{
+  color:inherit;
+  text-decoration: none;
+  
+}
+
+input[type="submit"]:hover ,a:hover{
+  color: rgba(8, 0, 255, 0.728)
+}
+
+input {
+  width: 100%
+}
+
+input[type="submit"] {
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  background: none;
+}
+
+input[type="submit"],.link {
+  font-size: 15px; 
+  display: block;
+  width: 220px;
+  text-align: center;
+  background-color: rgb(147, 111, 143);
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+td a{
+  display: inline-block;
+  background-color: white;
+  border-radius: 10px;
+  border-color: black;
+}
+
+.notice{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 370px;
+  height: 50px;
+  font-size: 17px;
+  background-color: rgb(181, 181, 255) ;
+  border: dotted 3px rgb(90, 90, 255);
+}
+
+.alert{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 370px;
+  height: 50px;
+  font-size: 17px;
+  background-color: rgb(217, 255, 192) ;
+  border: dotted 3px rgb(154, 255, 87) ;
+}
