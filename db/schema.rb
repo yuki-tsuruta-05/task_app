@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 2022_09_15_014515) do
     t.date "end_day"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.boolean "all_day", null: false
+    t.boolean "all_day", default: false, null: false
     t.text "memo"
   end
 
